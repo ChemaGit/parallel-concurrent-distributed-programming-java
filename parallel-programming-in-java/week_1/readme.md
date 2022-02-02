@@ -22,17 +22,10 @@ S3; // combine the two partial sums after both S1 and S2 have finished
 ````text
 While async and finish notations are useful algorithmic/pseudocode notations, 
 we also provide you access to a high-level open-source Java-8 library called 
-PCDP (for Parallel, Concurrent, and Distributed Programming), for which the source code is available at 
-[link](https://github.com/habanero-rice/pcdp)
+PCDP (for Parallel, Concurrent, and Distributed Programming), 
 ````
-````html
-<a href="https://github.com/habanero-rice/pcdp">link</a>
-````
+for which the source code is available at [source](https://github.com/habanero-rice/pcdp)
 ````text
 Optional Reading:
-
-1. Wikipedia article on 
-````
-````html
-<a href="https://en.wikipedia.org/wiki/Asynchronous_method_invocation">Asynchronous method invocation</a>
-````
+```` 
+1.[Wikipedia article on](https://github.com/habanero-rice/pcdp)
