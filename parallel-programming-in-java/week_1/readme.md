@@ -23,6 +23,7 @@ S3; // combine the two partial sums after both S1 and S2 have finished
 While async and finish notations are useful algorithmic/pseudocode notations, 
 we also provide you access to a high-level open-source Java-8 library called 
 PCDP (for Parallel, Concurrent, and Distributed Programming), for which the source code is available at 
+[link](https://github.com/habanero-rice/pcdp)
 ````
 ````html
 <a href="https://github.com/habanero-rice/pcdp">link</a>
