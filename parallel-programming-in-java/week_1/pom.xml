@@ -10,4 +10,27 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>week_1</artifactId>
+
+    <properties>
+        <pcdp.version>0.0.4-SNAPSHOT</pcdp.version>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>pcdp-repo</id>
+            <url>https://raw.github.com/habanero-maven/hjlib-maven-repo/mvn-repo-pcdp-${pcdp.version}/</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>edu.rice.pcdp</groupId>
+            <artifactId>pcdp-core</artifactId>
+            <version>${pcdp.version}</version>
+        </dependency>
+    </dependencies>
 </project>
