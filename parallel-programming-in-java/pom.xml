@@ -10,5 +10,13 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>week_1</module>
+        <module>miniproject_1</module>
+        <module>miniproject_0</module>
     </modules>
+    <properties>
+        <java.version>1.8</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+    </properties>
+
 </project>
