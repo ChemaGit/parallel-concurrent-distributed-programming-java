@@ -14,6 +14,8 @@
         <module>miniproject_0</module>
         <module>week_2</module>
         <module>miniproject_2</module>
+        <module>week_3</module>
+        <module>miniproject_3</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
