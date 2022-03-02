@@ -21,19 +21,19 @@ the first demo video in Week 3 in which Professor Sarkar walks through an exampl
 ````
 ### Project Instructions
 ````text
-Your modifications should be done entirely inside of  MatrixMultiply.java. 
-You may not make any changes to the signatures of any public or protected methods inside of MatrixMultiply, 
+Your modifications should be done entirely inside of  MatrixMultiplyExample.java. 
+You may not make any changes to the signatures of any public or protected methods inside of MatrixMultiplyExample, 
 or remove any of them. However, you  are free to add any new methods you like. 
 Any changes you make to  MatrixMultiplyTest.java will be ignored in the final grading process.  
 As in past mini-projects  in this course, the provided code is a fully functioning Maven project  
 but you are not required to use Maven if you prefer since we have also  provided the necessary JARs 
 to use an alternate approach to build and  execute your code
 
-Your main goals for this assignment are as follows (note that MatrixMultiply.java also contains helpful TODOs):
+Your main goals for this assignment are as follows (note that MatrixMultiplyExample.java also contains helpful TODOs):
 
-Modify the MatrixMultiply.parMatrixMultiply method to implement matrix multiply in parallel 
+Modify the MatrixMultiplyExample.parMatrixMultiply method to implement matrix multiply in parallel 
 using PCDP's forall or forallChunked methods. This will closely follow the demo by Prof. Sarkar 
-in the first demo video of Week 3. There is one TODO in MatrixMultiply.parMatrixMultiply to help indicate the changes 
-to be made. A parallel implementation of MatrixMultiply.parMatrixMultiply should result in near-linear speedup 
+in the first demo video of Week 3. There is one TODO in MatrixMultiplyExample.parMatrixMultiply to help indicate the changes 
+to be made. A parallel implementation of MatrixMultiplyExample.parMatrixMultiply should result in near-linear speedup 
 (i.e. the speedup achieved should be close to the number of cores in your machine).
 ````
